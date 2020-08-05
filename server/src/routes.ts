@@ -1,8 +1,5 @@
 import express from 'express'
-import database from './database/connection'
-import convertHourToMinutes from './utils/convertHourToMinutes'
-import Knex from 'knex'
-import ClassesController from './controllers/classesController'
+import ClassesController from './controllers/ClassesController'
 import ConnectionsController from './controllers/ConnectionsController'
 
 
