@@ -99,17 +99,14 @@
     display: grid;
     grid-template-rows: 350px 1fr;
     grid-template-columns: 2fr 1fr 1fr;
-    grid-template-areas: 
-      "logo hero hero"
-      "buttons buttons total"
-    ;
+    grid-template-areas: "logo hero hero" "buttons buttons total";
   }
 
   .logo-container {
     grid-area: logo;
     align-self: center;
-    text-align: left;
     margin: 0;
+    text-align: left;
   }
 
   .logo-container h2 {
